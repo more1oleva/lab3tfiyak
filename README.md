@@ -10,7 +10,7 @@
 G[<ЦК> = <целочисленная константа>]: \
 VT = { ‘public’, ‘private’, ‘protected’, ‘struct’, ‘int’, ‘double’, ‘bool’, ‘string’, ‘{’, ‘}’, ‘;’, ‘a’…’z’, ‘A’…’Z’, ‘0’…’9’, ‘_’ } \
 VN = { DEF, STRUCT, NAMESTRUCT, NAMESTRUCTREM, FIELD, TYPE, STRUCTEND, FIELDNAME, FIELDNAMEREM } \
-P = { \
+P = { 
 1. DEF -> (public | private | protected) STRUCT
 2. STRUCT -> struct NAMESTRUCT
 3. NAMESTRUCT -> letter NAMESTRUCTREM
@@ -19,5 +19,5 @@ P = { \
 6. TYPE -> (int | double | bool | string) FIELDNAME
 7. FIELDNAME -> letter FIELDNAMEREM
 8. FIELDNAMEREM -> (letter | digit | _) FIELDNAMEREM | ; FIELD
-9. STRUCTEND -> ;
+9. STRUCTEND -> ; \
 }
