@@ -21,3 +21,8 @@ P = {
 8. FIELDNAMEREM -> (letter | digit | _) FIELDNAMEREM | ; FIELD
 9. STRUCTEND -> ; \
 }
+### Классификация грамматики
+Согласно классификации Хомского, грамматика G[Z] является полностью автоматной.
+### Граф конечного автомата
+![граф](https://github.com/more1oleva/lab3tfiyak/assets/118746926/8af70a79-479e-49ec-a9ae-ae26358e90fc)
+
