@@ -7,6 +7,10 @@
 3. Выполнить программную реализацию алгоритма работы конечного автомата.
 4. Встроить разработанную программу в интерфейс текстового редактора, созданного на первой лабораторной работе.
 ### Грамматика:
+G[<ЦК> = <целочисленная константа>]: \
+VT = { ‘public’, ‘private’, ‘protected’, ‘struct’, ‘int’, ‘double’, ‘bool’, ‘string’, ‘{’, ‘}’, ‘;’, ‘a’…’z’, ‘A’…’Z’, ‘0’…’9’, ‘_’ } \
+VN = { DEF, STRUCT, NAMESTRUCT, NAMESTRUCTREM, FIELD, TYPE, STRUCTEND, FIELDNAME, FIELDNAMEREM } \
+P = { \
 1. DEF -> (public | private | protected) STRUCT
 2. STRUCT -> struct NAMESTRUCT
 3. NAMESTRUCT -> letter NAMESTRUCTREM
@@ -16,3 +20,4 @@
 7. FIELDNAME -> letter FIELDNAMEREM
 8. FIELDNAMEREM -> (letter | digit | _) FIELDNAMEREM | ; FIELD
 9. STRUCTEND -> ;
+}
