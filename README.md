@@ -31,7 +31,7 @@ P = {
 
 
 ### Тестовые примеры
-**Тест №1** Ошибок нет
+**Тест №1** Ошибок нет \
 ![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/39fc2cc1-938f-4d46-af6f-9c0286dd16cb) \
 **Тест №2** Ошибки в ключевых словах \
 ![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/fd8d4893-1103-4789-8ebe-f74b052286fd) \
