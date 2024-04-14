@@ -27,15 +27,18 @@ P = {
 ### Классификация грамматики
 Согласно классификации Хомского, грамматика G[Z] является полностью автоматной.
 ### Граф конечного автомата
-![граф](https://github.com/more1oleva/lab3tfiyak/assets/118746926/8af70a79-479e-49ec-a9ae-ae26358e90fc)
+![граф](https://github.com/more1oleva/lab3tfiyak/assets/118746926/192cb7aa-0e21-443f-96c0-a337ec5fb5e1)
+
 
 ### Тестовые примеры
 **Тест №1** Ошибок нет
-
-![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/7cffb256-0b97-4af0-a7ff-ae51e5a387e7) \
+![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/39fc2cc1-938f-4d46-af6f-9c0286dd16cb) \
 **Тест №2** Ошибки в ключевых словах \
-![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/352e7e72-313d-4812-96e8-38a5308783e5) \
+![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/fd8d4893-1103-4789-8ebe-f74b052286fd) \
 **Тест №3** Неподходящие символы \
-![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/0b9bfe1b-330d-4cf8-9fd2-e4f8e436c3df)
+![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/9484ec2d-6aa5-4ab0-a1db-c30d26cbfdc3) \
+**Тест №4** Отсутствие ключевых слов \
+![Снимок](https://github.com/more1oleva/lab3tfiyak/assets/118746926/066972c1-d36f-4d7c-b6d2-c929fb2cb9bf)
+
 
 
